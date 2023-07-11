@@ -1,22 +1,24 @@
-# Calculator Java
+Izveštaj o metrikama:
 
-## Metrike
+LOC (Zbirno za sve fajlove):
 
-### LOC (Linije koda)
+Projekat sadrži jedan fajl, Calculator.java.
+Ukupan broj linija koda u fajlu Calculator.java je 68.
 
-- Ukupan broj linija koda za ceo projekat: 104
+Ciklomatska složenost metode evaluateExpression:
+Metoda evaluateExpression ne sadrži kontrolne strukture poput uslovnih naredbi ili petlji, pa je ciklomatska složenost 1.
 
-### Ciklomatska složenost
+Kognitivna složenost metode evaluateExpression:
+Metoda evaluateExpression koristi nekoliko promenljivih za praćenje stanja i promena u kodu, ali ne sadrži složene odluke.
+Kognitivna složenost metode evaluateExpression je niska.
 
-- Metoda `evaluateExpression`: 5 grana/uslova
-- Metoda `Calculate`: 8 grana/uslova
+Ciklomatska složenost metode Calculate:
+Metoda Calculate sadrži nekoliko kontrolnih struktura, uključujući uslovne naredbe.
+Ciklomatska složenost metode Calculate je 6.
 
-### Statička analiza
+Kognitivna složenost metode Calculate:
+Metoda Calculate koristi nekoliko promenljivih za praćenje stanja i promena u kodu.
+Kognitivna složenost metode Calculate je umerena.
 
-- Nisu pronađene izričite nedoslednosti ili propusti.
-
-## Zapažanja
-
-- Metoda `evaluateExpression` ima jasno definisan proces parsiranja izraza, ali bi bilo korisno dodati proveru na ulaznom izrazu kako bi se izbegle greške pri unosu neispravnog izraza.
-
-- Metoda `Calculate` sadrži veliki broj uslova i grananja, što može otežati razumevanje i održavanje koda. Razmatranje refaktorisanja ove metode može poboljšati čitljivost i održivost.
+Statička analiza:
+Fajl Calculator.java - Linija 27: U metodi Operations.ToString(), metoda bi trebala biti preimenovana u toString() kako bi se pridržavala konvencija nazivanja metoda.
